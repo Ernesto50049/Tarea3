@@ -1,0 +1,78 @@
+/* styles.css */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background: url(rojoyblanco.jpg) center center / cover no-repeat;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Título principal */
+h1 {
+    color: #b41616;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Párrafo de instrucciones */
+p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+/* Formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Entrada de texto */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Botón */
+button {
+    background-color: #a11010;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0fc1ce;
+}
+
+/* Resultado */
+#resultado {
+    font-size: 20px;
+    color: #333;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
